@@ -149,12 +149,15 @@ section{
 
 
 footer{
-    background-color: rebeccapurple;
+    background-color:#fff;
     height:50px ;
     margin-top: 10px;
-}
-
-footer foot{
     text-align: center;
     
+}
+
+.heart{
+    display: inline-block;
+    color: red;
+    font-size: 35px;
 }
