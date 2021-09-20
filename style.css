@@ -1,0 +1,110 @@
+/*GENERAL*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*UTILITIES*/
+
+.container{
+    width: 80%;
+    margin: 30px auto;
+}
+
+
+
+.mb-20{
+    margin-bottom: 20px;
+    
+}
+
+/*HEADER*/
+
+.brand{
+    height: 70px;
+    margin: auto;
+
+}
+
+header{
+    background-color:#fff;
+    height: 120px;
+
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 10px;
+    padding-bottom: 0;
+}
+
+a{ 
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: grey;   
+}
+
+/*MAIN*/
+main{
+    background-image: url(../htmlcss-wp/img/banner.jpg);
+    background-size: contain;
+    display: block;
+    height: 400px;
+}
+
+/*SECTION*/
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.sfondo{
+    background-color: royalblue;
+}
+
+section{
+    background-color: lightskyblue;
+    height: 100px;
+}
+
+.tab1,
+.tab2{
+    float: left;
+    background-color: lightskyblue;
+}
+
+.tab3{
+    background-color: lightskyblue;
+}
+
+.tab2,
+.tab3{
+    float: left;
+}
+
+.tab1,
+.tab3{
+    width: 20%;
+    height: 350px;
+    
+
+}
+
+
+.tab2{
+    width: 58%;
+    height: 350px;
+    margin-right: 1%;
+    margin-left: 1%;
+    
+}
+
+footer{
+    background-color: rebeccapurple;
+    height:50px ;
+    margin-top: 10px;
+}
